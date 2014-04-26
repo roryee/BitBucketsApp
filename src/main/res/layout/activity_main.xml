@@ -1,0 +1,47 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="Blog"
+        android:id="@+id/buttonBlog"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="Forum"
+        android:id="@+id/buttonForum"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="Website"
+        android:id="@+id/buttonSite"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="Robot"
+        android:id="@+id/buttonRobot"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="Matches"
+        android:id="@+id/buttonMatches"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+</LinearLayout>
